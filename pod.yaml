@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aiz
+spec:
+  containers:
+  - name: aiz
+    image: aizirek92/myubuntu:v1
+  imagePullSecrets:
+  - name: mysecret      
